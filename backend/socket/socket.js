@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin:['https://wechat-ysjf.onrender.com'],
+        origin:'https://wechat-ysjf.onrender.com',
         methods:["GET", "POST"]
     }
 });
